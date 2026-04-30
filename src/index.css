@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+
+@theme {
+    --color-orange: #F9A825;
+    --color-cream: #FAE0A8;
+    --color-brown: #7B2D00;
+    --color-dark: #3E1A00;
+    --color-darker: #2A1000;
+    --color-mid: #5C2A00;
+    --color-bgColor: #ffb353;
+
+    /* For Outlets */
+    /* Colors */
+    --color-background: #f8f9ff;
+    --color-on-background: #121c2a;
+    --color-surface: #f8f9ff;
+    --color-on-surface: #121c2a;
+    --color-primary: #8d4b00;
+    --color-on-primary: #ffffff;
+    --color-secondary: #515f74;
+    --color-on-secondary: #ffffff;
+    --color-tertiary: #006096;
+    --color-on-tertiary: #ffffff;
+    --color-error: #ba1a1a;
+    --color-on-error: #ffffff;
+
+    /* Surface variants */
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #eff4ff;
+    --color-surface-container: #e6eeff;
+    --color-surface-container-high: #dee9fc;
+    --color-surface-container-highest: #d9e3f6;
+    --color-surface-variant: #d9e3f6;
+    --color-on-surface-variant: #554336;
+
+    /* Primary variants */
+    --color-primary-container: #b15f00;
+    --color-on-primary-container: #fffbff;
+    --color-primary-fixed: #ffdcc3;
+    --color-on-primary-fixed: #2f1500;
+    --color-primary-fixed-dim: #ffb77d;
+    --color-on-primary-fixed-variant: #6e3900;
+
+    /* Secondary variants */
+    --color-secondary-container: #d5e3fc;
+    --color-on-secondary-container: #57657a;
+    --color-secondary-fixed: #d5e3fc;
+    --color-on-secondary-fixed: #0d1c2e;
+    --color-secondary-fixed-dim: #b9c7df;
+    --color-on-secondary-fixed-variant: #3a485b;
+
+    /* Tertiary variants */
+    --color-tertiary-container: #007abd;
+    --color-on-tertiary-container: #fdfcff;
+    --color-tertiary-fixed: #cee5ff;
+    --color-on-tertiary-fixed: #001d32;
+    --color-tertiary-fixed-dim: #96ccff;
+    --color-on-tertiary-fixed-variant: #004a75;
+
+    /* Outline */
+    --color-outline: #887364;
+    --color-outline-variant: #dbc2b0;
+
+    /* Error container */
+    --color-error-container: #ffdad6;
+    --color-on-error-container: #93000a;
+
+    /* Inverse colors */
+    --color-inverse-surface: #27313f;
+    --color-inverse-on-surface: #eaf1ff;
+    --color-inverse-primary: #ffb77d;
+
+    /* Surface states */
+    --color-surface-bright: #f8f9ff;
+    --color-surface-dim: #d0dbed;
+    --color-surface-tint: #904d00;
+
+    /* Spacing */
+    --spacing-unit: 8px;
+    --spacing-gutter: 24px;
+    --spacing-container-max: 1280px;
+    --spacing-margin-mobile: 16px;
+    --spacing-margin-desktop: 40px;
+
+    /* Font families */
+    --font-family-primary: 'Be Vietnam Pro', sans-serif;
+    --font-family-secondary: 'Work Sans', sans-serif;
+    /* For Outlets End */
+}
+
+/* Import Google Fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap'); */
