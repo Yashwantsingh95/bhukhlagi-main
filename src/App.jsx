@@ -13,6 +13,7 @@ function App() {
         <>
             <Cursor />
             <Routes>
+                <Route path="/" element={<Roasts />} />
                 <Route path="/roasts" element={<Roasts />} />
                 <Route path="/menu" element={<Menu />} />
                 <Route path="/join" element={<Join />} />
